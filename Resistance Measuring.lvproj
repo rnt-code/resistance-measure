@@ -25,15 +25,19 @@
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Item Name="band to color converter.vi" Type="VI" URL="../band to color converter.vi"/>
+			<Item Name="mult to color converter.vi" Type="VI" URL="../mult to color converter.vi"/>
 			<Item Name="Read CSV Files.vi" Type="VI" URL="../Read CSV Files.vi"/>
 			<Item Name="tol to color converter.vi" Type="VI" URL="../tol to color converter.vi"/>
 		</Item>
 		<Item Name="TypeDef" Type="Folder">
 			<Item Name="Banda Tolerancia--control.ctl" Type="VI" URL="../Banda Tolerancia--control.ctl"/>
-			<Item Name="Banda--control.ctl" Type="VI" URL="../Banda--control.ctl"/>
 			<Item Name="data--control.ctl" Type="VI" URL="../data--control.ctl"/>
+			<Item Name="multiplier color to multiplier value.vi" Type="VI" URL="../multiplier color to multiplier value.vi"/>
+			<Item Name="multiplier--control.ctl" Type="VI" URL="../multiplier--control.ctl"/>
+			<Item Name="significant digit--control.ctl" Type="VI" URL="../significant digit--control.ctl"/>
 			<Item Name="states--control.ctl" Type="VI" URL="../states--control.ctl"/>
 		</Item>
+		<Item Name="exponents--contant.vi" Type="VI" URL="../exponents--contant.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
