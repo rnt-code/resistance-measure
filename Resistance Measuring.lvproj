@@ -34,10 +34,14 @@
 			<Item Name="tolerance to color converter.vi" Type="VI" URL="../tolerance to color converter.vi"/>
 		</Item>
 		<Item Name="TypeDef" Type="Folder">
+			<Item Name="Band colors--control.ctl" Type="VI" URL="../Band colors--control.ctl"/>
 			<Item Name="data--control.ctl" Type="VI" URL="../data--control.ctl"/>
+			<Item Name="E-Series--control.ctl" Type="VI" URL="../E-Series--control.ctl"/>
 			<Item Name="multiplier--control.ctl" Type="VI" URL="../multiplier--control.ctl"/>
+			<Item Name="Resistor--control.ctl" Type="VI" URL="../Resistor--control.ctl"/>
 			<Item Name="significant digit--control.ctl" Type="VI" URL="../significant digit--control.ctl"/>
 			<Item Name="states--control.ctl" Type="VI" URL="../states--control.ctl"/>
+			<Item Name="TC colors.ctl" Type="VI" URL="../TC colors.ctl"/>
 			<Item Name="tolerance--control.ctl" Type="VI" URL="../tolerance--control.ctl"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
