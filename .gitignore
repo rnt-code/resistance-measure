@@ -1,17 +1,40 @@
 # Libraries
+
 *.lvlibp
+
 *.llb
 
-# Shared objects (inc. Windows DLLs)
+
+
+# Shared objects (including Windows DLLs)
+
 *.dll
+
 *.so
+
 *.so.*
+
 *.dylib
 
+
+
 # Executables
+
 *.exe
 
-# Metadata
+
+
+# Metadata & Machine-Specific Files
+
 *.aliases
+
 *.lvlps
+
+*.UserState
 .cache/
+
+
+
+# Build directories
+
+Builds/
