@@ -10,6 +10,7 @@
 		<Property Name="IOScan.Priority" Type="UInt">9</Property>
 		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
 		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -21,18 +22,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Constants Vis" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="black--constant.vi" Type="VI" URL="../black--constant.vi"/>
-			<Item Name="brown--constant.vi" Type="VI" URL="../brown--constant.vi"/>
-			<Item Name="red--constant.vi" Type="VI" URL="../red--constant.vi"/>
-			<Item Name="orange--constant.vi" Type="VI" URL="../orange--constant.vi"/>
-			<Item Name="yellow--constant.vi" Type="VI" URL="../yellow--constant.vi"/>
-			<Item Name="green--constant.vi" Type="VI" URL="../green--constant.vi"/>
-			<Item Name="blue--constant.vi" Type="VI" URL="../blue--constant.vi"/>
-			<Item Name="violet--constant.vi" Type="VI" URL="../violet--constant.vi"/>
-			<Item Name="gray--constant.vi" Type="VI" URL="../gray--constant.vi"/>
-			<Item Name="white--constant.vi" Type="VI" URL="../white--constant.vi"/>
-			<Item Name="gold--constant.vi" Type="VI" URL="../gold--constant.vi"/>
-			<Item Name="silver--constant.vi" Type="VI" URL="../silver--constant.vi"/>
 			<Item Name="exponents--contant.vi" Type="VI" URL="../exponents--contant.vi"/>
 		</Item>
 		<Item Name="csv" Type="Folder">
@@ -59,6 +48,7 @@
 			<Item Name="E-Series--control.ctl" Type="VI" URL="../E-Series--control.ctl"/>
 			<Item Name="Resistor--control.ctl" Type="VI" URL="../Resistor--control.ctl"/>
 		</Item>
+		<Item Name="Resistor Band Colors.lvlib" Type="Library" URL="../Resistor Band Colors/Resistor Band Colors.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
