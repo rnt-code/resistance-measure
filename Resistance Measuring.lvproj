@@ -20,6 +20,19 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Constants Vis" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="black--constant.vi" Type="VI" URL="../black--constant.vi"/>
+			<Item Name="brown--constant.vi" Type="VI" URL="../brown--constant.vi"/>
+			<Item Name="red--constant.vi" Type="VI" URL="../red--constant.vi"/>
+			<Item Name="orange--constant.vi" Type="VI" URL="../orange--constant.vi"/>
+			<Item Name="yellow--constant.vi" Type="VI" URL="../yellow--constant.vi"/>
+			<Item Name="green--constant.vi" Type="VI" URL="../green--constant.vi"/>
+			<Item Name="blue--constant.vi" Type="VI" URL="../blue--constant.vi"/>
+			<Item Name="violet--constant.vi" Type="VI" URL="../violet--constant.vi"/>
+			<Item Name="gray--constant.vi" Type="VI" URL="../gray--constant.vi"/>
+			<Item Name="white--constant.vi" Type="VI" URL="../white--constant.vi"/>
+			<Item Name="gold--constant.vi" Type="VI" URL="../gold--constant.vi"/>
+			<Item Name="silver--constant.vi" Type="VI" URL="../silver--constant.vi"/>
 			<Item Name="exponents--contant.vi" Type="VI" URL="../exponents--contant.vi"/>
 		</Item>
 		<Item Name="csv" Type="Folder">
@@ -27,22 +40,24 @@
 			<Item Name="E24 Series.csv" Type="Document" URL="../E24 Series.csv"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="digit to color converter.vi" Type="VI" URL="../digit to color converter.vi"/>
-			<Item Name="multiplier color to multiplier value converter.vi" Type="VI" URL="../multiplier color to multiplier value converter.vi"/>
 			<Item Name="multiplier to color converter.vi" Type="VI" URL="../multiplier to color converter.vi"/>
-			<Item Name="Read CSV Files.vi" Type="VI" URL="../Read CSV Files.vi"/>
 			<Item Name="tolerance to color converter.vi" Type="VI" URL="../tolerance to color converter.vi"/>
+			<Item Name="multiplier color to multiplier value converter.vi" Type="VI" URL="../multiplier color to multiplier value converter.vi"/>
+			<Item Name="Read CSV Files.vi" Type="VI" URL="../Read CSV Files.vi"/>
 		</Item>
 		<Item Name="TypeDef" Type="Folder">
-			<Item Name="Band colors--control.ctl" Type="VI" URL="../Band colors--control.ctl"/>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="data--control.ctl" Type="VI" URL="../data--control.ctl"/>
-			<Item Name="E-Series--control.ctl" Type="VI" URL="../E-Series--control.ctl"/>
-			<Item Name="multiplier--control.ctl" Type="VI" URL="../multiplier--control.ctl"/>
-			<Item Name="Resistor--control.ctl" Type="VI" URL="../Resistor--control.ctl"/>
-			<Item Name="significant digit--control.ctl" Type="VI" URL="../significant digit--control.ctl"/>
 			<Item Name="states--control.ctl" Type="VI" URL="../states--control.ctl"/>
+			<Item Name="Digit--control.ctl" Type="VI" URL="../Digit--control.ctl"/>
+			<Item Name="Multiplier--control.ctl" Type="VI" URL="../Multiplier--control.ctl"/>
+			<Item Name="Tolerance--control.ctl" Type="VI" URL="../Tolerance--control.ctl"/>
 			<Item Name="TC colors--control.ctl" Type="VI" URL="../TC colors--control.ctl"/>
-			<Item Name="tolerance--control.ctl" Type="VI" URL="../tolerance--control.ctl"/>
+			<Item Name="Band colors--control.ctl" Type="VI" URL="../Band colors--control.ctl"/>
+			<Item Name="E-Series--control.ctl" Type="VI" URL="../E-Series--control.ctl"/>
+			<Item Name="Resistor--control.ctl" Type="VI" URL="../Resistor--control.ctl"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -82,6 +97,7 @@
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
